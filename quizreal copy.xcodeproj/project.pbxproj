@@ -17,8 +17,6 @@
 		8486A0752A6E954000ED9CF1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A0742A6E954000ED9CF1 /* QuizViewController.swift */; };
 		8486A0772A6E959100ED9CF1 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A0762A6E959100ED9CF1 /* ScoreViewController.swift */; };
 		8486A0792A6E986C00ED9CF1 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8486A0782A6E986C00ED9CF1 /* quiz1.csv */; };
-		8486A07B2A6EA30700ED9CF1 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 8486A07A2A6EA30700ED9CF1 /* correct.png */; };
-		8486A07D2A6EA31600ED9CF1 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8486A07C2A6EA31600ED9CF1 /* incorrect.png */; };
 		8486A07F2A6EC50800ED9CF1 /* SelectLebelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A07E2A6EC50800ED9CF1 /* SelectLebelViewController.swift */; };
 		8486A0812A6EC95100ED9CF1 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8486A0802A6EC95100ED9CF1 /* quiz2.csv */; };
 		8486A0832A6ECA4900ED9CF1 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8486A0822A6ECA4900ED9CF1 /* quiz3.csv */; };
@@ -27,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		844B4ABA2A6F5AAD00BA78AA /* Circle_Walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Circle_Walk.mp3; sourceTree = "<group>"; };
-		8486A05D2A6E944100ED9CF1 /* Slangquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slangquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8486A05D2A6E944100ED9CF1 /* quizreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizreal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486A0602A6E944100ED9CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8486A0622A6E944100ED9CF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8486A0642A6E944100ED9CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +36,6 @@
 		8486A0742A6E954000ED9CF1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		8486A0762A6E959100ED9CF1 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		8486A0782A6E986C00ED9CF1 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
-		8486A07A2A6EA30700ED9CF1 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = correct.png; path = "../../Desktop/三目ならべ/三目ならべ/kadai1/kadai1/correct.png"; sourceTree = "<group>"; };
-		8486A07C2A6EA31600ED9CF1 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = incorrect.png; path = "../../Desktop/三目ならべ/三目ならべ/kadai1/kadai1/incorrect.png"; sourceTree = "<group>"; };
 		8486A07E2A6EC50800ED9CF1 /* SelectLebelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLebelViewController.swift; sourceTree = "<group>"; };
 		8486A0802A6EC95100ED9CF1 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		8486A0822A6ECA4900ED9CF1 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
@@ -71,7 +67,7 @@
 		8486A05E2A6E944100ED9CF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8486A05D2A6E944100ED9CF1 /* Slangquiz.app */,
+				8486A05D2A6E944100ED9CF1 /* quizreal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,8 +86,6 @@
 				8486A0692A6E944300ED9CF1 /* Assets.xcassets */,
 				8486A06B2A6E944300ED9CF1 /* LaunchScreen.storyboard */,
 				8486A06E2A6E944300ED9CF1 /* Info.plist */,
-				8486A07A2A6EA30700ED9CF1 /* correct.png */,
-				8486A07C2A6EA31600ED9CF1 /* incorrect.png */,
 				844B4ABA2A6F5AAD00BA78AA /* Circle_Walk.mp3 */,
 			);
 			path = quizreal;
@@ -100,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8486A05C2A6E944100ED9CF1 /* Slangquiz */ = {
+		8486A05C2A6E944100ED9CF1 /* quizreal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8486A0712A6E944300ED9CF1 /* Build configuration list for PBXNativeTarget "Slangquiz" */;
+			buildConfigurationList = 8486A0712A6E944300ED9CF1 /* Build configuration list for PBXNativeTarget "quizreal" */;
 			buildPhases = (
 				8486A0592A6E944100ED9CF1 /* Sources */,
 				8486A05A2A6E944100ED9CF1 /* Frameworks */,
@@ -112,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = Slangquiz;
+			name = quizreal;
 			productName = quizreal;
-			productReference = 8486A05D2A6E944100ED9CF1 /* Slangquiz.app */;
+			productReference = 8486A05D2A6E944100ED9CF1 /* quizreal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8486A0582A6E944100ED9CF1 /* Build configuration list for PBXProject "Slangquiz" */;
+			buildConfigurationList = 8486A0582A6E944100ED9CF1 /* Build configuration list for PBXProject "quizreal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8486A05C2A6E944100ED9CF1 /* Slangquiz */,
+				8486A05C2A6E944100ED9CF1 /* quizreal */,
 			);
 		};
 /* End PBXProject section */
@@ -156,8 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486A0812A6EC95100ED9CF1 /* quiz2.csv in Resources */,
-				8486A07B2A6EA30700ED9CF1 /* correct.png in Resources */,
-				8486A07D2A6EA31600ED9CF1 /* incorrect.png in Resources */,
 				8486A06D2A6E944300ED9CF1 /* LaunchScreen.storyboard in Resources */,
 				8486A06A2A6E944300ED9CF1 /* Assets.xcassets in Resources */,
 				8486A0682A6E944100ED9CF1 /* Main.storyboard in Resources */,
@@ -379,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8486A0582A6E944100ED9CF1 /* Build configuration list for PBXProject "Slangquiz" */ = {
+		8486A0582A6E944100ED9CF1 /* Build configuration list for PBXProject "quizreal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8486A06F2A6E944300ED9CF1 /* Debug */,
@@ -388,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8486A0712A6E944300ED9CF1 /* Build configuration list for PBXNativeTarget "Slangquiz" */ = {
+		8486A0712A6E944300ED9CF1 /* Build configuration list for PBXNativeTarget "quizreal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8486A0722A6E944300ED9CF1 /* Debug */,
